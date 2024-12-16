@@ -41,4 +41,23 @@ Graphics:
 * [Franc from the Noun Project](https://commons.wikimedia.org/w/index.php?curid=64661575)
 * [Greek-arrow-animated.gif by Andrikkos is licensed under CC BY-SA 3.0](https://search.creativecommons.org/photos/2db102af-80d0-4ec8-9171-1ac77d2565ce)
 
+
+* ## Recent Updates and Changes
+
+### 1. Weapon System
+A combo-based weapon system has been implemented. Each weapon now supports:
+- Unique combos for activation.
+- Distinct behaviors such as **lasers** (move forward) or **bombs** (stay stationary).
+- Adjustable properties like size, speed, and points to add upon hitting a target.
+
+This system demonstrates my understanding of Unity components like `Rigidbody` for movement and `ScoreAdder` for score tracking.
+
+### 2. Advanced Enemy Behaviors
+Added **new enemy types** with creative effects:
+- Enemies move dynamically in the space (based on `Coroutines` and smooth animations).
+- When destroyed, enemies disappear with a fade-out or explosion effect, showcasing both animation and scripting creativity.
+
+These additions align with the objectives of the second assignment, but also reflect my creative interpretation and personal coding style.
+
+
 eran david tzarum

@@ -737,6 +737,21 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3399611681662173639, guid: 41e5c0266515f1c49aec825f2068a297,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3399611681662173639, guid: 41e5c0266515f1c49aec825f2068a297,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3399611681662173639, guid: 41e5c0266515f1c49aec825f2068a297,
+        type: 3}
+      propertyPath: m_DrawMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3896440064613542801, guid: 41e5c0266515f1c49aec825f2068a297,
         type: 3}
       propertyPath: m_Name
@@ -811,6 +826,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043964463970077360, guid: 41e5c0266515f1c49aec825f2068a297,
+        type: 3}
+      propertyPath: pointsToAdd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043964463970077360, guid: 41e5c0266515f1c49aec825f2068a297,
+        type: 3}
+      propertyPath: velocityOfSpawnedObject.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043964463970077360, guid: 41e5c0266515f1c49aec825f2068a297,
+        type: 3}
+      propertyPath: velocityOfSpawnedObject.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7837289214103786376}
   - component: {fileID: 7837289214103786377}
   - component: {fileID: 7837289214103786378}
+  - component: {fileID: 4187436820745490639}
   m_Layer: 0
   m_Name: EnemySaucer
   m_TagString: Enemy
@@ -101,3 +102,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: {x: 5, y: -7, z: 0}
+--- !u!114 &4187436820745490639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7837289214103786379}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02639cc4f8c4fc54689f05e2467f20e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  amplitude: {x: 3, y: 0, z: 0}

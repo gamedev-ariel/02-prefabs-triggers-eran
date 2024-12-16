@@ -15,8 +15,9 @@ GameObject:
   - component: {fileID: 4202652755164059409}
   - component: {fileID: -2434083917718500768}
   - component: {fileID: -660179872604309324}
+  - component: {fileID: 1107120741263909264}
   m_Layer: 0
-  m_Name: EnemySaucerWithCollider
+  m_Name: Enemy2SaucerWithCollider2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -250,7 +251,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7837289214103786379}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac24d9321137a1b4890c638cef3c27fe, type: 3}
   m_Name: 
@@ -259,3 +260,19 @@ MonoBehaviour:
   maxVisibleTime: 3
   minInvisibleTime: 0.5
   maxInvisibleTime: 1
+--- !u!114 &1107120741263909264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7837289214103786379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61ce8ac8524ba342ad2336d72c4b55a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 90
+  rotationAxis: {x: 0, y: 1, z: 0}
+  radius: 3
+  pathSpeed: 2
